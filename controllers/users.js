@@ -73,7 +73,28 @@ const verify =  async (req, res) => {
     }
 }
 
-const changePassword = async (req, res) => { }
+const changePassword = async (req, res) => {
+  const { id } = req.params
+  let numOfKeys = Object.keys(req.body).length;
+  let password = req.body.password;
+  const password_digest = await bcrypt.hash(password, SALT_ROUNDS);
+  req.body.password_digest = password_digest;
+    await User.findByIdAndUpdate(id, req.body, { new: true }, (error, card) => {
+        if (error) {
+            return res.status(500).json({ error: error.message })
+        }
+        if (!card) {
+            return res.status(404).json({ message: 'User not found!' })
+        }
+      if (numOfKeys !== 1) {
+          return res.status(404).json({ message: 'Too many!' })
+      }
+      if (!password) {
+        return res.status(404).json({ message: 'Change the password' })
+      }
+        res.status(200).json(card)
+    })
+}
 
 module.exports = {
     getUsers,
