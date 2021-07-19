@@ -89,7 +89,7 @@ How to update a card
 4.  Repeat steps 3-5 from "how to verify"
 5.  The message body of the request should be in this format: 
 {
-      "____": "____"
+      "(name of field)": "_____"
   }
 
 7. Hit the send button
