@@ -1,5 +1,15 @@
 # SessionTogether
 
+HOW TO SETUP THIS API: 
+
+Note: I am a Mac user. I do not have instructions for other operating systems right now.
+
+1. Clone down this repo 
+2. In Terminal, run npm i and nodemon server.js
+
+HOW TO USE THIS API: 
+
+Note: I will be using Postman. It is available for download here: https://www.postman.com/ 
 
 How to sign up for a user account
 
