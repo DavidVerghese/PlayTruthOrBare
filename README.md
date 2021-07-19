@@ -5,8 +5,8 @@ HOW TO SETUP THIS API:
 Note: I am a Mac user. I unfortunately do not have instructions for other operating systems right now.
 
 1. Clone down this repo 
-2. In Terminal, run _npm i _
-3. run_ nodemon server.js_
+2. In Terminal, run "npm i"
+3. run "nodemon server.js"
 
 HOW TO USE THIS API: 
 
