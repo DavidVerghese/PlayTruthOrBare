@@ -1,5 +1,6 @@
 # SessionTogether
 
+
 How to sign up for a user account
 
 1. In Postman, go to http://localhost:3000/api/sign-up
@@ -87,6 +88,7 @@ How to delete a card
   1. Find the id of the post you want to change. 
 2.  In Postman, go to http://localhost:3000/api/cards/id
 3.  Select delete request
-4.  Hit the send button
+4.  Repeat steps 3-5 from "how to verify"
+5.  Hit the send button
 
 
