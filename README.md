@@ -2,7 +2,7 @@
 
 HOW TO SETUP THIS API: 
 
-Note: I am a Mac user. I do not have instructions for other operating systems right now.
+Note: I am a Mac user. I unfortunately do not have instructions for other operating systems right now.
 
 1. Clone down this repo 
 2. In Terminal, run npm i and nodemon server.js
