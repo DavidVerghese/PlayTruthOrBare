@@ -2,8 +2,8 @@
 
 How to sign up 
 
-1. Go to http://localhost:3000/api/sign-up
-2. Submit a post request. 
+1. In Postman, go to http://localhost:3000/api/sign-up
+2. Select 'post request'. 
 3. The message body of the request should be in this format: 
 {
          "username": "john3",
