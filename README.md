@@ -1,4 +1,4 @@
-# SessionTogether
+# Play Truth or Bare 
 
 HOW TO SETUP THIS API: 
 
